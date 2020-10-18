@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Algorithmic Toolbox" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Algorithmic Toolbox" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Algorithmic Toolbox" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../week1_programming_challenges/MaxPairwiseProductStressTest.cpp" />
+		<Unit filename="../week2_algorithmic_warmup/1_fibonacci_number/fibonacci.cpp" />
+		<Unit filename="../week2_algorithmic_warmup/2_last_digit_of_fibonacci_number/fibonacci_last_digit.cpp" />
+		<Unit filename="../week2_algorithmic_warmup/3_greatest_common_divisor/gcd.cpp" />
+		<Unit filename="../week2_algorithmic_warmup/4_least_common_multiple/lcm.cpp" />
+		<Unit filename="../week2_algorithmic_warmup/5_fibonacci_number_again/fibonacci_huge.cpp" />
+		<Unit filename="../week2_algorithmic_warmup/6_last_digit_of_the_sum_of_fibonacci_numbers - Copy/fibonacci_sum_last_digit.cpp" />
+		<Unit filename="../week2_algorithmic_warmup/6_last_digit_of_the_sum_of_fibonacci_numbers/fibonacci_sum_last_digit.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
